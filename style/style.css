@@ -1,0 +1,379 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Merriweather", serif; */
+/* all style */
+section{
+    margin: 130px 140px;
+}
+/* banner section */
+.banner{
+    height: 600px;
+    background-image: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    margin: 50px 140px;
+}
+header > .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner > h3{
+font-family: "Merriweather", serif;
+color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 400;
+text-align: center;
+margin-bottom: -2rem;
+}
+.banner > h1{
+color: rgb(255, 255, 255);
+font-family: "Merriweather", serif;
+font-size: 72px;
+font-weight: 900;
+letter-spacing: 0%;
+text-align: center;
+}
+/* offer section */
+.offer{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.offer > h1{
+color: rgb(255, 0, 0);
+font-family: "Inter", sans-serif;
+font-size: 88px;
+font-weight: 700;
+line-height: 107px;
+letter-spacing: 0%;
+}
+.offer > p{
+color: rgb(255, 0, 0);
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+}
+.offer > h2{
+color: rgb(7, 2, 17);
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+}
+.offer-img >img{
+    width: 802px;
+    height: 500px;
+    margin-top: 2rem;
+}
+/* party section */
+.party{
+    border-radius: 5px;
+    padding: 67px 126px;
+    display: flex;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+}
+.party h1{ 
+color: rgb(255, 255, 255);
+font-family: "Merriweather", sans-serif;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 11%;
+text-align: left;
+}
+.party p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.party a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    text-align: left;
+    margin-top: 48px ;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+/* joins section */
+.join-date{
+    height: 442px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+}
+.join-details > h2{
+font-family: "Inter", sans-serif;
+font-size: 32px;
+font-weight: 600;
+text-align: center;
+text-transform: capitalize;
+}
+.join{
+    color:rgb(255, 0, 0) ;
+}
+.join-btn{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    font-family: "Inter", sans-serif;
+}
+
+/* new offer */
+#new-offer{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    gap: 3rem ;
+    justify-content: center;
+    align-items: center;
+}
+.new-left-offer > h5{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.new-left-offer h1{
+color: rgb(7, 2, 17);
+font-family: "Merriweather", sans-serif;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+.new-left-offer p{
+color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+.new-center-offer > img{
+    width: 364px;
+    height: 364px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+}
+.new-right-offer {
+margin-left: 118px;
+font-family: "Inter", sans-serif;
+text-align: left;
+}
+.new-right-offer h5{
+color: rgb(255, 0, 0);
+font-size: 48px;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: left;
+}
+.new-right-offer p{
+color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: left;
+}
+.new-right-offer > img{
+    width: 140px;
+    height: 140px;
+    margin-top: 3rem;
+}
+#holiday{
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+#holiday > P{
+    color: rgb(7, 2, 17);
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+}
+#holiday h1{
+font-family: "Merriweather", sans-serif;
+font-size: 72px;
+font-weight: 900;
+line-height: 91px;
+letter-spacing: 0%;
+}
+.holiday-des{
+color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0%;
+}
+
+/* descound section */
+#descound-section{
+    position: relative;
+}
+.descound-color{
+    position: absolute;
+    height: 229px;
+    width: 100%;
+    background-color: red;
+    margin-top: 30%;
+    border-radius: 0px 0px 5px 5px;
+}
+.descound-box > img{
+   width: 574px;
+   height: 477px;
+   position: relative;
+   z-index: 1;
+   padding: 0px 0px 0px 30px;
+   margin-top: 4rem;
+}
+.descound-50 > img{
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -45%;
+}
+/* product section */
+.product-text{
+    font-family: "Inter", sans-serif;
+}
+.product-img {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+
+}s
+.item > img{
+    width: 424px;
+    height: 450px;
+    border-radius: 10px;
+}
+/* sucscribe section */
+.sucscrib{
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    background: rgba(255, 0, 0, 0.05);
+    padding-bottom: 40px;
+}
+.sucscrib> img{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+}
+.sucscrib > h1{
+color: rgb(7, 2, 17);
+font-family: "Merriweather", sans-serif;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+.sucscrib > p{
+color: rgba(7, 2, 17, 0.6);
+font-family: "Inter", sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+}
+.sub-email-btn{
+    margin-top: 48px;
+}
+.sub-email-btn > input{
+    height: 45px;
+    width: 500px;
+    font-size: 15px;
+    padding: 10px 0px 10px 30px;
+    border: none;
+    border-radius: 100px;
+}
+.sub-email-btn > label{
+    margin-left: -8rem;
+    background-color: red;
+    width: 500px;
+    height: 45px;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    padding: 22px;
+    border-radius: 0px 100px 100px 0px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 700;
+}
+/* footer section */
+footer{
+    background-color: black;
+    color: white;
+}
+.footer{
+    padding: 120px;
+}
+.footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-text-style{
+    color: rgb(255, 255, 255);
+font-family: "Inter", sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer-text-style a{
+    text-decoration: none;
+    color: white;
+}
+.footer-social{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top:1rem ;
+    padding-bottom: 1rem;
+}
+.footer-social a{
+    margin: 10px;
+}
+.footer-food{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+font-family: "Inter", sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+margin-top: 1rem;
+
+}
